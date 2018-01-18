@@ -2,8 +2,8 @@
 # Maintainer: Fixed Torres <aur_linuxero@outlook.com>
 
 pkgname=sayonara-player
-pkgver=1.0.0_20171230
-_pkgver=1.0.0-git0-20171230
+pkgver=1.0.0_20180115
+_pkgver=1.0.0-git5-20180115
 pkgrel=1
 pkgdesc="Is a small, clear and fast audio player for Linux written in C++, supported by the Qt framework. It uses Gstreamer as audio backend."
 arch=('i686' 'x86_64')
@@ -28,4 +28,4 @@ package() {
     cd build
     make DESTDIR="$pkgdir/" install
 }
-sha512sums=('643b831d9e21ef05e20dcc3f5a89593da42463683cfcbf1d6f693a28c66d3c56484636597dbcf10537b59190ff7d0c65ee28a76afd8b2f8d0078074af839fcb3')
+sha512sums=('198ce2621c9e055b1d1618e134ec8b0b504bcac15f16090d0714723d57caefa310eab75726ada3c71d084eb58fd312b230e2a02263f1b2ae87dd57d4c2b9c5e8')
