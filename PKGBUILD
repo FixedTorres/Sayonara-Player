@@ -17,8 +17,8 @@ source=("http://sayonara-player.com/sw/${pkgname}-${_pkgver}.tar.gz")
  
 build() {
     cd "$srcdir/$pkgname"
-	   mkdir build
-	   cd build
+    mkdir build
+    cd build
     cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE="Release"
     make
 }
